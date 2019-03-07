@@ -18,4 +18,4 @@ You can avoid this step by starting/stopping the same container (i.e. *not* use 
 
 ## Triggering an org-todo
 
-    curl -v "http://HOST:9010/hooks/org-todo?file=work.org&search-string=Coffee"
+    curl "http://HOST:9010/hooks/org-todo?file=work.org&search-string=Coffee"
