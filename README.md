@@ -14,8 +14,8 @@ The first time you start the container, you'll have to authorize access to the d
 
 **Important note:** The account you are logged in to in the browser will be the account associated with the container.
 
-You can avoid this step by starting/stopping the same container (i.e. *not* use the --rm option for docker run). See `./start.sh`.
+You can avoid this step by starting/stopping the same container (i.e. *not* use the `--rm` option for docker run). See `./start.sh`.
 
 ## Triggering an org-todo
 
-    curl -v "http://HOST:9010/hooks/org-todo?file=handla.org&search-string=Test2"
+    curl -v "http://HOST:9010/hooks/org-todo?file=work.org&search-string=Coffee"
