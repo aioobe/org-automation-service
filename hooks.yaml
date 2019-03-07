@@ -1,0 +1,7 @@
+- id: "org-todo"
+  execute-command: "./org-todo.sh"
+  pass-arguments-to-command:
+    - source: url
+      name: file
+    - source: url
+      name: search-string
