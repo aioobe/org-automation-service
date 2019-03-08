@@ -11,7 +11,7 @@ else
     echo "*** IMAGE FOUND. SKIPPING BUILD."
 fi
 
-if [ -z "$(docker container ls -a -f name=^$CONTAINER --format '{{.Names}}')" ]
+if [ -z "$(docker container ls -a -f name=$CONTAINER --format '{{.Names}}')" ]
 then
     echo "CONTAINER NOT FOUND. RUNNING FOR FIRST TIME."
     docker run \
